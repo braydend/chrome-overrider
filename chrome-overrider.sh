@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env bash -e
 
 OVERRIDE_DIR=$1
 OVERRIDE_FILE=$2
