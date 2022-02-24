@@ -15,9 +15,6 @@ fi
 
 if   [[ -d $OVERRIDE_DIR ]]
   then
-    echo "--- Clearing old override"
-    rm "$OVERRIDE_DIR"/"$OVERRIDE_FILE"
-
     echo "--- Building new override"
     npm run build
 
